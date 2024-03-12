@@ -15,7 +15,7 @@ cw = sess.client("cloudwatch")
 
 
 
-# Set up alarm parameters (unchanged from the previous example)
+# Set up alarm parameters 
 alarm_name = 'MyEC2DiskSpaceAlarm'
 namespace = 'AWS/EC2'
 metric_name = 'DiskSpaceUtilization'
